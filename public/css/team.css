@@ -1,0 +1,61 @@
+@font-face { 
+    font-family: 'Nunito';
+	src: url(fonts/nunito.ttf) format("truetype");
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #fbfbfb
+}
+.header__bottom {
+	background-color: #fbfbfb
+}
+.header__bottom_menu {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.instructors {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.inst__card {
+	text-align: center;
+	margin: 0 10px;
+}
+.inst__card-title {
+	color: #6b7de0;
+}
+.inst__card-name {
+	color: #333;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+.inst__card-img {
+	width: 260px;
+	height: 360px;
+	opacity: 1;
+	transition: all 0.3s ease;
+}
+.inst__card-age {
+	font-family: 'Nunito', sans-serif;
+}
+.inst__card-img:hover {
+	opacity: 0.6;
+}
+/*.about__team-title {
+	text-align: center;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-weight: 700;
+	font-size: 28px;
+	color: rgba(0,0,0,0.7);
+} */
+.about__title {
+	margin-top: -5px;
+	width: 251px;
+}
+.about__team-info {
+	text-align: center;
+	margin-bottom: 20px;
+}

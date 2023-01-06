@@ -1,0 +1,108 @@
+* {
+   box-sizing: border-box;
+}
+
+@font-face {
+	font-family: 'Nunito';
+	src: url(fonts/nunito.ttf) format("truetype");
+}
+
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #fbfbfb
+}
+
+.header__bottom {
+	background-color: #fbfbfb
+}
+
+.header__bottom_menu {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #e5e5e5;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.schedule {
+   flex: 1 0 0;
+   padding-right: 100px;
+}
+
+.schedule-block {
+	position: relative;
+}
+
+.schedule-table {
+   width: 100%;
+   margin-right: 100px;
+}
+
+.schedule-table th {
+	height: 50px;
+	background-color: #EE1025;
+	padding: 0 10px;
+	white-space: nowrap;
+	font-size: 14px;
+	font-weight: 600;
+	color: #ffffff;
+	text-align: left;
+	border-right: 1px solid #D0180F;
+}
+
+.schedule-table th object {
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.schedule-table td {
+	border: 1px solid #D6D6D6;
+	vertical-align: top;
+	padding: 7px 3px 5px 3px;
+	line-height: 20px;
+	position: relative;
+	width: 14%;
+}
+
+.schedule-table tr td:first-child {
+	padding: 10px;
+	width: 2%;
+}
+
+.schedule-event {
+	border-radius: 5px;
+	padding: 3px 7px;
+	position: relative;
+	line-height: 12px;
+	border: 2px solid transparent;
+}
+
+.schedule-name {
+	line-height: 16px;
+}
+
+.schedule-name > a {
+   text-decoration: none;
+   color: #EE1025;
+}
+
+.schedule-coach a {
+	padding-left: 10px;
+	text-decoration: none;
+	color: #1B344F;
+	font-size: 13px;
+	line-height: 16px;
+	display: block;
+}
+
+.schedule-time {
+	font-size: 13px;
+	color: #888484;
+	position: absolute;
+	left: 7px;
+	bottom: 10px;
+}

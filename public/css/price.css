@@ -1,0 +1,56 @@
+@font-face { 
+    font-family: 'Nunito';
+	src: url(fonts/nunito.ttf) format("truetype");
+}
+body {
+	font-family: 'Nunito', sans-serif;
+	background-color: #fbfbfb
+}
+.header__bottom {
+	background-color: #fbfbfb
+}
+.header__bottom_menu {
+	padding-bottom: 3px;
+	border-bottom: 1px solid #e5e5e5;
+}
+.cont {
+	max-width: 1120px;
+	width: 100%;
+	margin: 0 auto;
+}
+.price__cards {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	margin-left: 58px;
+}
+.price__card {
+	width: 400px;
+	height: 360px;
+	margin: 0 10px;
+}
+.price__card-img {
+	width: 350px;
+	height: 235px;
+}
+.price__card-img:hover {
+	opacity: 0.8;
+}
+.price__about {
+	text-align: center;
+	padding-bottom: 10px;
+}
+.price__card-title {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	color: black;
+	font-weight: bold;
+}
+.price__card-info {
+	color:#DC143C;
+	font-weight: 700;
+}
+.about__title {
+	margin-top: -5px;
+	width: 195px;
+}
